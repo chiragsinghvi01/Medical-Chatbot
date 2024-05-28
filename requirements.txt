@@ -1,6 +1,6 @@
-ctransformers==0.2.5
-sentence-transformers==2.2.2
+llama-cpp-python
 langchain-chroma
-langchain==0.0.225
+langchain==0.2.1
+sentence-transformers==2.7.0
 flask
 pypdf
