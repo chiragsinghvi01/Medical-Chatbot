@@ -1,5 +1,12 @@
 # Medical-Chatbot
 
+## Techstack Used:
+
+- Meta Llama2
+- Python
+- LangChain
+- ChromaDB
+
 ## How to run?
 
 Clone the repository:
@@ -47,11 +54,3 @@ llama-2-7b-chat.Q4_K_M.gguf
 From the following link:
 
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf
-
-
-## Techstack Used:
-
-- Meta Llama2
-- Python
-- LangChain
-- ChromaDB
