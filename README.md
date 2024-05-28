@@ -8,7 +8,7 @@ Project Repo: https://github.com/chiragsinghvi01/Medical-Chatbot.git
 
 ## STEPS: 
 
-### STEP 01: Create a conda environment after opening the repository
+### Step 01: Create a conda environment after opening the repository
 
 Open Git Bash terminal in your project folder and run this commands:
 
@@ -25,7 +25,7 @@ If you are not able to create the environment run this first and then run the ab
 ```bash
 source activate base
 ```
-### STEP 02: Install the requirements
+### Step 02: Install the requirements
 
 ```bash
 pip install -r requirements.txt
