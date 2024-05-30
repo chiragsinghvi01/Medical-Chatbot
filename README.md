@@ -2,7 +2,7 @@
 
 ## Techstack Used:
 
-- Meta Llama2
+- Llama2 (LLM model)
 - Python
 - LangChain
 - ChromaDB
@@ -27,7 +27,7 @@ conda create -n medicalchatbot python -y
 conda activate medicalchatbot
 ```
 
-If you are not able to create the environment run this first and then run the above commands:
+NOte: If you are not able to create the environment, run the command shown below first and then run the above commands.
 
 ```bash
 source activate base
@@ -36,6 +36,12 @@ source activate base
 
 ```bash
 pip install -r requirements.txt
+```
+Note: If you are having trouble while installing llama-cpp-python, and it's throwing error like - 'build wheel creation failed', then you can run the below code to install a pre-built wheel which will let you install llama-cpp.
+
+```bash
+pip install llama-cpp-python \
+  --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 ```
 
 ## Download the LLM Model:
