@@ -27,7 +27,7 @@ conda create -n medicalchatbot python -y
 conda activate medicalchatbot
 ```
 
-NOte: If you are not able to create the environment, run the command shown below first and then run the above commands.
+Note: If you are not able to create the environment, run the command shown below first and then run the above commands.
 
 ```bash
 source activate base
